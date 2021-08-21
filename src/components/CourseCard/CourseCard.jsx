@@ -29,7 +29,7 @@ export default function CourseCard(props) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="https://prod-discovery.edx-cdn.org/media/course/image/dc921dbd-434a-4994-acde-1430679bca2e-5198daeb8d45.small.jpg"
+          image={props.coverImage}
           title="course image"
         />
         <CardContent>

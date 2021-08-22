@@ -8,12 +8,9 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    height: 332,
   },
   media: {
-    height: 140,
-  },
-  span: {
     height: 140,
   },
   textAlignCourse: {
@@ -44,7 +41,7 @@ export default function CourseCard(props) {
           >
             {props.institutionName}
           </Typography>
-          <Typography className={classes.textAlignCourse} variant="caption" display="block" gutterBottom>
+          <Typography variant="caption" display="block" gutterBottom>
             course
           </Typography>
         </CardContent>

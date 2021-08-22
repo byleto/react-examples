@@ -29,23 +29,6 @@ function App() {
   return (
     <div className="App">
       <div className={classes.root}>
-        <MiriadaxCard
-          coverImage={
-            "https://miriadax-wp-uploads-pro.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/11/15080718/Aprende-a-programar-curso-300x202.jpg"
-          }
-          category={"PROGRAMACIÓN, DISEÑO Y DESARROLLO WEB"}
-          courseName={"Aprende a programar"}
-          price={"75.00$"}
-        />
-        <MiriadaxCard
-          coverImage={
-            "https://miriadax-wp-uploads-pro.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/02/15075958/Scrum-Developer-Certified-Expert-SDCE-300x200.png"
-          }
-          category={"GESTION"}
-          courseName={"Scrum Developer Certified Expert – SDCE Exam"}
-          price={"100.00$"}
-        />
-
         <AppBar position="static">
           <Toolbar>
             <IconButton
@@ -64,6 +47,26 @@ function App() {
         </AppBar>
       </div>
       <Grid container spacing={1}>
+        <Grid item xs={6}>
+          <MiriadaxCard
+            coverImage={
+              "https://miriadax-wp-uploads-pro.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/11/15080718/Aprende-a-programar-curso-300x202.jpg"
+            }
+            category={"PROGRAMACIÓN, DISEÑO Y DESARROLLO WEB"}
+            courseName={"Aprende a programar"}
+            price={"75.00$"}
+          />
+        </Grid>
+        <Grid item xs={6}>
+          <MiriadaxCard
+            coverImage={
+              "https://miriadax-wp-uploads-pro.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/02/15075958/Scrum-Developer-Certified-Expert-SDCE-300x200.png"
+            }
+            category={"GESTION"}
+            courseName={"Scrum Developer Certified Expert – SDCE Exam"}
+            price={"100.00$"}
+          />
+        </Grid>
         <Grid item xs={6}>
           <CourseCard
             title="Programming for the Web with JavaScript"

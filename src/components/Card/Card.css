@@ -1,0 +1,242 @@
+.discovery-card {
+  text-align: left;
+  border-radius: 6px;
+  border-width: 1px;
+  box-shadow: none;
+  height: 332px;
+  max-width: 270px;
+  min-width: 270px;
+  padding: 0;
+  position: relative;
+  width: 270px;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.scrollable-mobile-discovery-card-list .scrollable-discovery-card-spacing {
+  margin-right: 8px;
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.d-card-hero-image {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.pt-4,
+.pl-4,
+.py-4,
+.px-4 {
+  padding-left: 1.5rem !important;
+}
+
+.mt-2,
+.my-2 {
+  margin-top: 0.5rem !important;
+}
+
+.text-gray-700 {
+  color: #454545!important;
+}
+
+.text-black {
+  color: #000;
+}
+
+.h4,
+h4 {
+  line-height: 1.5rem;
+}
+.h4,
+h4 {
+  font-size: 1.125rem;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.d-card-wrapper {
+  border-color: #bfc9ca;
+  border-radius: 6px;
+  border-width: 1px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+  height: 332px;
+}
+
+.d-card-hero {
+  background-color: #ccc;
+  height: 104px;
+  overflow: hidden;
+}
+
+.partner-logo-wrapper {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px 0 rgb(170 170 170 / 50%);
+  height: 66px;
+  left: 24px;
+  padding: 7px;
+  position: absolute;
+  top: 54px;
+}
+
+.partner-logo {
+  height: 50px;
+  width: 100px;
+}
+
+img {
+  max-width: 100%;
+  border-style: none;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+div {
+  display: block;
+}
+
+body {
+  background-color: #fff;
+  color: #454545;
+  font-family: Inter, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.55556;
+  margin: 0;
+  text-align: left;
+}
+
+.d-card-footer {
+  bottom: 0;
+  position: absolute;
+}
+
+.x-small {
+  line-height: 1.25rem;
+}
+
+.x-small {
+  font-size: 0.75rem;
+}
+
+.ml-4 {
+  margin-left: 1.5rem !important;
+}
+
+.discovery-card-link {
+  border-radius: 6px;
+  border-width: 1px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  top: 0;
+}
+
+.badge-light {
+  background-color: #e1dddb;
+  color: #000;
+}
+
+.badge {
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0.125rem 0.5rem;
+  text-align: center;
+  transition: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.badge {
+  font-family: Inter, Helvetica Neue, Arial, sans-serif;
+  line-height: 1.25rem;
+}
+
+.program-badge {
+  font-family: Roboto Mono, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+}
+
+.text-primary-500 {
+  color: #00262b !important;
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.pl-4,
+.px-4 {
+  padding-left: 1.5rem !important;
+}
+.pb-3,
+.py-3 {
+  padding-bottom: 1rem !important;
+}
+
+.facts .fact p,
+.mb-1,
+.my-1 {
+  margin-bottom: 0.25rem !important;
+}
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.provider {
+  font-family: Inter, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 0.86;
+  margin-bottom: 20px;
+}
+
+.bg-primary-500 {
+  background-color: #00262b !important;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+

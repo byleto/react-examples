@@ -46,7 +46,7 @@ function App() {
           </Toolbar>
         </AppBar>
       </div>
-      <Grid container spacing={1}>
+      <Grid container spacing={3}>
         <Grid item xs={6}>
           <MiriadaxCard
             coverImage={

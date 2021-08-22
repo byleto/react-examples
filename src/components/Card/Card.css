@@ -240,3 +240,17 @@ sup {
   vertical-align: baseline;
 }
 
+@media (max-width: 320px) {
+  .discovery-card {
+    text-align: left;
+    border-radius: 6px;
+    border-width: 1px;
+    box-shadow: none;
+    height: 332px;
+    max-width: 156;
+    min-width: 156px;
+    padding: 0;
+    position: relative;
+    width: 156px;
+  }
+}

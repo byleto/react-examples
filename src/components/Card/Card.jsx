@@ -75,7 +75,7 @@ export default function Card(props) {
                   </svg>
                 </span>
                 <span>
-                  MicroBachelors<sup classname="superscript">®</sup> Program
+                  MicroBachelors<sup className="superscript">®</sup> Program
                 </span>
               </span>
               <span> 4 Courses</span>

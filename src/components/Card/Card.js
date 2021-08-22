@@ -49,9 +49,9 @@ export default function Card(props) {
               "d-card-footer x-small ml-4 x-small d-flex flex-column mb-4"
             }
           >
-            <div class="d-flex flex-column">
-              <span class="program-badge d-flex justify-content-center align-items-center text-primary-500 mb-2 badge badge-light">
-                <span class="pgn__icon badge-icon">
+            <div className="d-flex flex-column">
+              <span className="program-badge d-flex justify-content-center align-items-center text-primary-500 mb-2 badge badge-light">
+                <span className="pgn__icon badge-icon">
                   <svg
                     width="24"
                     height="24"
@@ -74,7 +74,7 @@ export default function Card(props) {
                   </svg>
                 </span>
                 <span>
-                  MicroBachelors<sup classname="superscript">®</sup> Program
+                  MicroBachelors<sup className="superscript">®</sup> Program
                 </span>
               </span>
               <span> 4 Courses</span>

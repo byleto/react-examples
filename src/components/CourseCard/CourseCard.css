@@ -23,3 +23,8 @@ img {
   bottom: 0;
   position: absolute;
 }
+
+.d-card-hero-image {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }

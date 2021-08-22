@@ -9,13 +9,19 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles({
   root: {
     height: 332,
+    maxWidth: 270,
+    textAlign: "left"
   },
   media: {
-    height: 140,
+    height: 160.7,
+    borderTopLeftRadius: "6px",
+    borderTopRightRadius: "6px",
+    maxWidth: "100%",
+    borderStyle: "none",
   },
-  textAlignCourse: {
-    textAlign: "left",
-  },
+  textBold: {
+    fontWeight: "bold"
+  }
 });
 
 const PartnerLogo = ({ partnerLogo }) => (
@@ -40,7 +46,7 @@ export default function CourseCard(props) {
           title="course image"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography className={classes.textBold} gutterBottom variant="h6" component="h2">
             {props.title}
           </Typography>
           <Typography

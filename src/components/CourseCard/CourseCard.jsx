@@ -18,6 +18,16 @@ const useStyles = makeStyles({
   },
 });
 
+const PartnerLogo = ({ partnerLogo }) => (
+  <div className={"partner-logo-wrapper"}>
+    <img
+      src={partnerLogo}
+      className={"partner-logo"}
+      alt={"University of Pennsylvania"}
+    />
+  </div>
+);
+
 export default function CourseCard(props) {
   const classes = useStyles();
 
@@ -45,6 +55,7 @@ export default function CourseCard(props) {
             course
           </Typography>
         </CardContent>
+        <PartnerLogo partnerLogo={props.partnerLogo} />
       </CardActionArea>
     </Card>
   );

@@ -1,0 +1,25 @@
+.partner-logo-wrapper {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px 0 rgb(170 170 170 / 50%);
+  height: 66px;
+  left: 24px;
+  padding: 7px;
+  position: absolute;
+  top: 54px;
+}
+
+.partner-logo {
+  height: 50px;
+  width: 100px;
+}
+
+img {
+  max-width: 100%;
+  border-style: none;
+}
+
+.d-card-footer {
+  bottom: 0;
+  position: absolute;
+}

@@ -60,6 +60,16 @@ function App() {
         <Grid item xs={6}>
           <MiriadaxCard
             coverImage={
+              "https://miriadax-wp-uploads-pro.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/02/15080040/Deepl-Learning-300x200.png"
+            }
+            category={"BI/BIG DATA"}
+            courseName={"Introducción a Deep Learning"}
+            price={"50.00$"}
+          />
+        </Grid>
+        <Grid item xs={6}>
+          <MiriadaxCard
+            coverImage={
               "https://miriadax-wp-uploads-pro.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/02/15075958/Scrum-Developer-Certified-Expert-SDCE-300x200.png"
             }
             category={"GESTION"}

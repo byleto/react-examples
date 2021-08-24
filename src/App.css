@@ -10,7 +10,7 @@ body {
 
 .App-header {
   padding: 50;
-  background-color: rgb(0, 86, 210);
+  background-color: #00262b;
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -24,7 +24,8 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  background-color: #d6edf6;
+  background-color: #f5f5f5;
+  font-size: larger;
   width: 100%;
 }
 
@@ -57,7 +58,6 @@ nav a {
 .item {
   display: flex;
   padding: 20px;
-
 }
 
 section {

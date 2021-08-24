@@ -69,38 +69,38 @@ function App() {
           </div>
           <div className="item">
             <Card
-              name={"Programming for the Web with JavaScript"}
-              image={
-                "https://prod-discovery.edx-cdn.org/media/course/image/dc921dbd-434a-4994-acde-1430679bca2e-5198daeb8d45.small.jpg"
-              }
+              name="Computer Science 101"
+              partnerName="StanfordOnline"
+              image="https://prod-discovery.edx-cdn.org/media/course/image/05f61d04-5acc-452b-9c34-6d447af6437f-7a7861d50d40.small.png"
               partnerLogo={
-                "https://prod-discovery.edx-cdn.org/organization/logos/fc03b413-d5d6-48af-974f-21da4d244ee8-6fe2970cf98b.png"
+                "https://prod-discovery.edx-cdn.org/organization/logos/f53a7458-c79b-4524-97cf-28241114230e-e47d44123c3b.png"
               }
-              partnerName={"PennX"}
             />
           </div>
           <div className="item">
             <Card
-              name={"Programming for the Web with JavaScript"}
+              name={"Introduction to Progamming in C++"}
               image={
-                "https://prod-discovery.edx-cdn.org/media/course/image/dc921dbd-434a-4994-acde-1430679bca2e-5198daeb8d45.small.jpg"
+                "https://prod-discovery.edx-cdn.org/media/course/image/62ed92c9-22b6-43a6-a755-0f296d0f64ce-8b3c8aa8f0af.small.jpeg"
               }
               partnerLogo={
-                "https://prod-discovery.edx-cdn.org/organization/logos/fc03b413-d5d6-48af-974f-21da4d244ee8-6fe2970cf98b.png"
+                "https://prod-discovery.edx-cdn.org/organization/logos/dc6d25de-0dac-43e6-a915-e362bf8b4403-917c4e000b69.png"
               }
-              partnerName={"PennX"}
+              partnerName={"NYUx"}
             />
           </div>
           <div className="item">
             <Card
-              name={"Programming for the Web with JavaScript"}
+              name={
+                "Introduction to Computer Science and Programming Using Python"
+              }
               image={
-                "https://prod-discovery.edx-cdn.org/media/course/image/dc921dbd-434a-4994-acde-1430679bca2e-5198daeb8d45.small.jpg"
+                "https://prod-discovery.edx-cdn.org/media/course/image/956319ec-8665-4039-8bc6-32c9a9aea5e9-885268c71902.small.jpg"
               }
               partnerLogo={
-                "https://prod-discovery.edx-cdn.org/organization/logos/fc03b413-d5d6-48af-974f-21da4d244ee8-6fe2970cf98b.png"
+                "https://prod-discovery.edx-cdn.org/organization/logos/2a73d2ce-c34a-4e08-8223-83bca9d2f01d-2cc8854c6fee.png"
               }
-              partnerName={"PennX"}
+              partnerName={"MITx"}
             />
           </div>
         </div>
@@ -134,21 +134,23 @@ function App() {
           <div className="item">
             <MiriadaxCard
               coverImage={
-                "https://miriadax-wp-uploads-pro.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/02/15075958/Scrum-Developer-Certified-Expert-SDCE-300x200.png"
+                "https://miriadax-wp-uploads-pro.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/02/15080040/Deepl-Learning-300x200.png"
               }
-              category={"GESTION"}
-              courseName={"Scrum Developer Certified Expert – SDCE Exam"}
-              price={"100.00$"}
+              category={"BI / BIG DATA"}
+              courseName={"Introduccion a Deep Learning"}
+              price={"50.00$"}
             />
           </div>
           <div className="item">
             <MiriadaxCard
               coverImage={
-                "https://miriadax-wp-uploads-pro.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/02/15075958/Scrum-Developer-Certified-Expert-SDCE-300x200.png"
+                "https://miriadax-wp-uploads-pro.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/07/19140145/bi-a-600x363.jpeg"
               }
-              category={"GESTION"}
-              courseName={"Scrum Developer Certified Expert – SDCE Exam"}
-              price={"100.00$"}
+              category={"BI / BIG DATA"}
+              courseName={
+                "Análisis de datos y Business Intelligence con Microsoft Power BI"
+              }
+              price={"250.00$"}
             />
           </div>
         </div>
@@ -180,21 +182,21 @@ function App() {
           </div>
           <div className="item">
             <CourseCard
-              title="Computer Science 101"
-              institutionName="StanfordOnline"
-              coverImage="https://prod-discovery.edx-cdn.org/media/course/image/05f61d04-5acc-452b-9c34-6d447af6437f-7a7861d50d40.small.png"
+              title="Introduction to Progamming in C++"
+              institutionName="NYUx"
+              coverImage="https://prod-discovery.edx-cdn.org/media/course/image/62ed92c9-22b6-43a6-a755-0f296d0f64ce-8b3c8aa8f0af.small.jpeg"
               partnerLogo={
-                "https://prod-discovery.edx-cdn.org/organization/logos/f53a7458-c79b-4524-97cf-28241114230e-e47d44123c3b.png"
+                "https://prod-discovery.edx-cdn.org/organization/logos/dc6d25de-0dac-43e6-a915-e362bf8b4403-917c4e000b69.png"
               }
             />
           </div>
           <div className="item">
             <CourseCard
-              title="Computer Science 101"
-              institutionName="StanfordOnline"
-              coverImage="https://prod-discovery.edx-cdn.org/media/course/image/05f61d04-5acc-452b-9c34-6d447af6437f-7a7861d50d40.small.png"
+              title="Introduction to Computer Science and Programming Using Python"
+              institutionName="MITx"
+              coverImage="https://prod-discovery.edx-cdn.org/media/course/image/956319ec-8665-4039-8bc6-32c9a9aea5e9-885268c71902.small.jpg"
               partnerLogo={
-                "https://prod-discovery.edx-cdn.org/organization/logos/f53a7458-c79b-4524-97cf-28241114230e-e47d44123c3b.png"
+                "https://prod-discovery.edx-cdn.org/organization/logos/2a73d2ce-c34a-4e08-8223-83bca9d2f01d-2cc8854c6fee.png"
               }
             />
           </div>

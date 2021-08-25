@@ -38,6 +38,7 @@ function App() {
               partnerLogo={
                 "https://prod-discovery.edx-cdn.org/organization/logos/f53a7458-c79b-4524-97cf-28241114230e-e47d44123c3b.png"
               }
+              warningText="edX pick"
             />
           </div>
           <div className="item">

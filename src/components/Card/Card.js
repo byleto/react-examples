@@ -4,9 +4,7 @@ import "./Card.css";
 export default function Card(props) {
   return (
     <div
-      className={
-        "discovery-card col mb-4 scrollable-discovery-card-spacing"
-      }
+      className={"discovery-card col mb-4 scrollable-discovery-card-spacing"}
       role={"group"}
       aria-label={props.name}
     >
@@ -16,19 +14,16 @@ export default function Card(props) {
       >
         <div className={"d-flex flex-column d-card-wrapper"}>
           <div className={"d-card-hero"}>
-            <img
-              src={
-                props.image
-              }
-              alt={""}
-              className={"d-card-hero-image"}
-            />
+            <img src={props.image} alt={""} className={"d-card-hero-image"} />
           </div>
+          {props.warningText && (
+            <span class="d-card-badge position-absolute px-2 badge badge-warning">
+              edX pick
+            </span>
+          )}
           <div className={"partner-logo-wrapper"}>
             <img
-              src={
-                props.partnerLogo
-              }
+              src={props.partnerLogo}
               className={"partner-logo"}
               alt={"University of Pennsylvania"}
             />
@@ -40,7 +35,7 @@ export default function Card(props) {
             </h3>
             <div className={"text-gray-700 small provider"}>
               <span width={"220"}>
-                  <span>{props.partnerName}</span>
+                <span>{props.partnerName}</span>
               </span>
             </div>
           </div>

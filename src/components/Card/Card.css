@@ -254,3 +254,27 @@ sup {
     width: 156px;
   }
 }
+
+discovery-card .d-card-badge {
+  padding-bottom: .125rem;
+  padding-top: .125rem;
+  right: .5rem;
+  top: .5rem;
+}
+
+.badge {
+  font-family: Inter,Helvetica Neue,Arial,sans-serif;
+  line-height: 1.25rem;
+}
+.badge-warning {
+  background-color: #f0cc00;
+  color: #000;
+}
+
+.position-absolute {
+  position: absolute!important;
+}
+
+.px-2 {
+  padding-left: .5rem!important;
+}
